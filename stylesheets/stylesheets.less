@@ -9,12 +9,12 @@
 }
 
 .ball {
-	display: inline-block;
 	height: 300px;
 	width: 300px;
 	background-color: black;
 	color: white;
-	.border-radius; 
+	border-radius: 50%;
+	-web-kit-border-radius: 50%; 
 	text-align: center;
 	padding: 25px;
 	padding-left: 25px; 
@@ -24,11 +24,8 @@
 	display: inline-block;
 	height: 30px;
 	width: 300px;
-	background-color: #ffebee; 
+	background-color: #ffebee;
+	color: black;  
 }
 
 
-/*Parametric Mixins */
-.border-radius(@radius:999px) {
-	border-radius: @radius; 
-	}
